@@ -20,7 +20,7 @@ const Task = ({ task, onDelete, onBookmarkClick }) => {
                     />
                 </div>
             </h3>
-            <p>{task.date}</p>
+            <p>{task.day}</p>
         </div>
     )
 }
