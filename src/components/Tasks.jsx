@@ -3,7 +3,7 @@ import Task from './Task'
 
 export const Tasks = ({ tasks, onDelete, onBookmarkClick }) => {
     return (
-        <div>
+        <div className="tasks-container">
             {tasks.map((task) => (
                 <Task
                     key={task.id}

@@ -32,7 +32,8 @@ body {
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background: #000;
   color: #fff;
   border: none;
